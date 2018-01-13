@@ -1,0 +1,19 @@
+h1 {
+  color: purple;
+}
+
+a:hover{ color:#e3578a; } /* e3578a fashion pink */
+a:active{ color:black; }
+a:not(visited){color:orange; }
+a:visited{ color:yellow; }
+
+body {
+  background: #3F51B5;
+}
+
+div#wrapper{
+  margin: auto;
+  background: white;
+  width: auto;
+  height: auto;
+}
