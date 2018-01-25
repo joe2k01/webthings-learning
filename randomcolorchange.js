@@ -12,4 +12,10 @@ function changeColor(){
   this.style.color = randomColor;
 }
 
+function toggleImg(){
+  var img = document.getElementById("pugImg");
+  var isImgVisible = img.style.visibility != "visible";
+  img.style.visibility = isImgVisible ? "visible" : "hidden";
+}
+
 onload = init;
